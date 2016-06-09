@@ -1,0 +1,728 @@
+/******** ICOFONT SVG ********/
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?dqp7xn');
+    src: url('../fonts/icomoon.eot?dqp7xn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?dqp7xn') format('truetype'),
+    url('../fonts/icomoon.woff?dqp7xn') format('woff'),
+    url('../fonts/icomoon.svg?dqp7xn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cadenas:before {
+    content: "\e900";
+}
+
+.icon-facebook-circular-logo:before {
+    content: "\e901";
+}
+
+.icon-garage:before {
+    content: "\e902";
+}
+
+.icon-google-plus:before {
+    content: "\e903";
+}
+
+.icon-loupe:before {
+    content: "\e904";
+    font-size: 32px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    color: #303030;
+    cursor: pointer;
+}
+
+.icon-loupe:hover:before {
+    color: #ff6600;
+}
+
+.icon-pinterest-logo:before {
+    content: "\e905";
+}
+
+.icon-portiere:before {
+    content: "\e906";
+}
+
+.icon-quote:before {
+    content: "\e907";
+}
+
+.icon-shopping-cart:before {
+    content: "\e908";
+    font-size: 24px;
+    color: #303030;
+}
+
+.icon-shopping-cart:hover:before {
+    color: #ff6600;
+}
+
+.icon-telephone:before {
+    content: "\e909";
+    font-size: 34px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    color: #303030;
+}
+
+.icon-twitter:before {
+    content: "\e90a";
+}
+
+/******** CONTENU ********/
+
+body {
+    font: 14px Raleway;
+    font-weight: 700;
+}
+
+a {
+    display: block;
+    color: #303030;
+    text-transform: uppercase;
+}
+
+input {
+    color: #ff6600;
+    height: 40px;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 5px;
+    color: #ff6600;
+}
+
+:-moz-placeholder {
+    padding-left: 5px;
+    color: #ff6600;
+}
+
+::-moz-placeholder {
+    padding-left: 5px;
+    color: #ff6600;
+}
+
+:-ms-input-placeholder {
+    padding-left: 5px;
+    color: #ff6600;
+}
+
+/******** HEADER ********/
+
+header {
+    width: 1366px;
+    height: 110px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header nav {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+header nav ul:last-child {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+header nav ul:last-child::before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    height: 70px;
+    width: 1px;
+    background: #ff6600;
+}
+
+header nav ul:last-child a:hover:last-child {
+    background: #fff;
+    color: #ff6600;
+}
+
+header nav a {
+    display: block;
+    padding: 7px 20px;
+    color: #303030;
+    line-height: 30px;
+}
+
+header nav a:hover, header nav a:active {
+    color: #fff;
+    background: #ff6600;
+}
+
+.nav-burger {
+    display:none;
+}
+
+/******** 1ER BANDEAU ********/
+
+.background {
+    background: url('../img/back-mea.jpg') 0 -200px no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 435px;
+}
+
+.mea {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 70px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+/******* TROUVER SON VEHICULE *******/
+
+.vehicule {
+    width: 600px;
+    height: 300px;
+    background: #ff6600;
+    text-transform: uppercase;
+}
+
+.vehicule ul {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 55px;
+    background: #eaeaea;
+}
+
+.vehicule ul li {
+    display: block;
+    width: 200px;
+    height: 100%;
+    line-height: 55px;
+    text-align: center;
+    color: #ff6600;
+}
+
+.vehicule ul li.active, .vehicule ul li:hover {
+    color: #fff;
+    background: #ff6600;
+    cursor: pointer;
+}
+
+.vehicule form {
+    color: #fff;
+}
+
+form.par_vehicule {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 245px;
+}
+
+form.par_immatriculation {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 245px;
+}
+
+form.par_carte_grise {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 245px;
+}
+
+.vehicule form p {
+    width: 450px;
+    margin: 0 0 30px 0;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+form.par_carte_grise p:last-child {
+    margin: 30px 0 0;
+}
+
+.vehicule form select {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #ff6600;
+}
+
+.vehicule form select:last-child {
+    margin: 0;
+}
+
+/******** TROUVER UN GARAGE *******/
+
+.garage {
+    width: 205px;
+    height: 300px;
+    background: #eaeaea;
+}
+
+.garage h2 {
+    height: 55px;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.garage img {
+    display: block;
+    margin: 35px auto 50px;
+}
+
+.garage input {
+    width: 160px;
+    text-align: center;
+}
+
+/******** RECHERCHE ET CONTACT *******/
+
+.contact {
+    background: #eaeaea;
+    text-transform: uppercase;
+}
+
+.recherche {
+    position: relative;
+    width: 360px;
+    background: #ff6600;
+    padding: 20px 0;
+}
+
+.contact input {
+    width: 320px;
+}
+
+.contact address {
+    width: 300px;
+    margin: 20px auto;
+    padding-left: 15px;
+}
+
+.contact address p {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.contact address p:last-child {
+    margin-top: 15px;
+    padding-left: 55px;
+    font-size: 24px;
+    color: #ff6600;
+}
+
+.contact h2 {
+    text-align: center;
+    margin: 30px auto 15px;
+    letter-spacing: 1px;
+}
+
+.newsletter {
+    position: relative;
+}
+
+.contact .newsletter::after {
+    content: 'OK';
+    width: 32px;
+    height: 32px;
+    background: #ff6600;
+    color: #fff;
+    display: block;
+    line-height: 32px;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+/******** publicités ********/
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 70px auto 0;
+    width: 960px;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+    width: 960px;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    height: 180px;
+}
+
+/*SECTION INFORMATIONS*/
+.informations {
+    width: 1366px;
+    margin: 70px auto 0;
+    text-align: center;
+}
+
+.informations h2 {
+    font-size: 24px;
+    color: #ff6600;
+    text-transform: uppercase;
+    width: 630px;
+    margin: auto;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.informations p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 700px;
+    margin: 50px auto 0;
+}
+
+.informations ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.informations ul li span:first-child {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.informations ul li span:last-child {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.informations ul li i {
+    display: block;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.informations span {
+    display: block;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+/*SECTION CATEORIE*/
+
+.categorie {
+    width: 1366px;
+    margin: 70px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.categorie a:hover {
+    color: #fff;
+}
+
+.mecanique, .carrosserie, .entretiens {
+    text-transform: uppercase;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.mecanique ul, .carrosserie ul, .entretiens ul {
+    padding: 20px 0 70px 60px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.mecanique figcaption, .carrosserie figcaption, .entretiens figcaption {
+    width: 320px;
+    padding: 50px 30px 0;
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+.mecanique h2, .carrosserie h2, .entretiens h2 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.mecanique {
+    background: url(../img/engine.jpg) no-repeat;
+}
+
+.mecanique figcaption {
+    float: right;
+}
+
+.carrosserie {
+    background: url(../img/carrosserie.jpg) no-repeat;
+}
+
+.carrosserie figcaption {
+    float: left;
+    height: 385px;
+}
+
+.quote {
+    float: right;
+    padding: 12% 3%;
+    background: #eaeaea;
+    width: 50%;
+    text-align: justify;
+    height: 385px;
+}
+
+.wrap_quote {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.quote p {
+    font-size: 25px;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+
+.q1 {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.q2 {
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
+
+.entretiens {
+    background: url(../img/entretien.jpg);
+}
+
+.entretiens figcaption {
+    float: right;
+}
+
+/*FOOTER*/
+footer {
+    text-transform: uppercase;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+footer a:link, footer a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer img {
+    width: 60px;
+}
+
+.social h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ff6600;
+    padding-top: 50px;
+    clear: both;
+}
+
+.social-network {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 650px;
+    font-size: 60px;
+    color: #303030;
+}
+
+.social-network li i {
+    color: #303030;
+}
+
+.social-network li i:hover {
+    color: #ff6600;
+}
+
+.social-network li {
+    display: inline-block;
+    padding: 40px 40px 0;
+}
+
+footer li > h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff6600;
+    padding-top: 50px;
+    clear: both;
+}
+
+footer ul h2 {
+    color: #303030;
+}
+
+.bloc-1, .bloc-2, .bloc-3 {
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    width: 33.33%;
+}
+
+.bloc-2 li a {
+    border-left: 1px solid #ff6600;
+    border-right: 1px solid #ff6600;
+
+}
+
+.bloc-1 h2, .bloc-2 h2, .bloc-3 h2 {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+footer ul li a {
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+footer ul li a:hover {
+    color: #ff6600;
+}
+
+.moteur {
+    display:none;
+    background:rgba(0,0,0,0.4);
+    width:75%;
+    height:430px;
+    color:#fff;
+}
